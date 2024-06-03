@@ -5,7 +5,7 @@ let sec = document.getElementById("sec");
 setInterval(() => {
     let curentTime =new Date();
     hrs.innerHTML = (curentTime.getHours()<10?"0":"")+ curentTime.getHours(); 
-    sec.innerHTML = (curentTime.getMinutes()<10?"0":"")+curentTime.getMinutes();  
+    min.innerHTML = (curentTime.getMinutes()<10?"0":"")+curentTime.getMinutes();  
     sec.innerHTML = (curentTime.getSeconds()<10?"0":"")+curentTime.getSeconds();  
 }, 1000);
 const modeToggle = document.getElementById('mode-toggle');
